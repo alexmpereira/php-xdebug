@@ -1,0 +1,16 @@
+{
+    "name": "alex/phpxdebug",
+    "description": "Projeto de exemplo para o uso do xdebug em php",
+    "autoload": {
+        "psr-4": {
+            "Alex\\Phpxdebug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexmpereira",
+            "email": "alexmpprog@gmail.com"
+        }
+    ],
+    "require": {}
+}
