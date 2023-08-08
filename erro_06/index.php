@@ -5,6 +5,7 @@ class StringUtils {
     }
 }
 
-echo StringUtils::concatenate("Hello"); // Output: Warning: Missing argument 2 for StringUtils::concatenate()
+$account = new StringUtils();
+echo $account->concatenate('Hello, ','Lucas');
 
 ?>
