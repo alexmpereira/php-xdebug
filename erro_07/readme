@@ -1,0 +1,1 @@
+# 7) O problema está na variavel $minimumValue -> com voce podendo alterar o valor dele, o ideal seria tornar uma classe privada

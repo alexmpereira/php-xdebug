@@ -1,6 +1,7 @@
 <?php 
 class Person {
     private $name;
+    private $age; // add private age
 
     public function setName($name) {
         $this->name = $name;
@@ -10,7 +11,11 @@ class Person {
         return $this->name;
     }
 
-    public function getAge() {
+    public function setAge($age) { // add function age
+        $this->age = $age;
+    }
+
+    public function getAge() { // add function age
         return $this->age;
     }
 }

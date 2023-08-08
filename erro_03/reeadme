@@ -1,0 +1,5 @@
+# 3) faltava adicionar o metodo:
+
+    public function multiply($a, $b) { 
+       return $a * $b; 
+    }

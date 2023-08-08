@@ -1,0 +1,13 @@
+# 6) No caso o:
+
+class StringUtils {
+    public static function concatenate($str1, $str2) {
+        return $str1 . $str2;
+    }
+}
+
+estava passando dois metodos,
+
+e no: echo StringUtils::concatenate("Hello", "world"); 
+
+estava só com o "Hello"

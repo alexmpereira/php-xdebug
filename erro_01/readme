@@ -1,0 +1,5 @@
+# 1) Faltava adicionar um ";" no final do: 
+
+public function setModel($model) {
+        $this->model = $model; 
+    }
