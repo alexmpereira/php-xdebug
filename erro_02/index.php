@@ -10,14 +10,14 @@ class Person {
         return $this->name;
     }
 
-    public function getAge() {
-        return $this->age;
+    public function getAge($age) {
+        $this->$age = $age;
     }
 }
 
 $person = new Person();
 $person->setName("John");
 echo $person->getName(); // Output: John
-echo $person->getAge();
+echo $person->getAge("21");
 
 ?>

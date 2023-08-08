@@ -1,6 +1,6 @@
 <?php 
 class Math {
-    public function divide($a, $b): int {
+    public function divide($a, $b): float {
         return $a / $b;
     }
 }
