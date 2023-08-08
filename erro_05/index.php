@@ -1,6 +1,10 @@
 <?php 
 class BankAccount {
-    private $balance;
+    public $balance;
+
+    public function __construct() {
+        $this->balance = 0;
+    }
 
     public function deposit($amount) {
         $this->balance += $amount;
@@ -17,7 +21,6 @@ class BankAccount {
 
 $account = new BankAccount();
 $account->deposit(100);
-$account->withdraw(50);
+$account->withdraw(30);
 echo $account->balance; 
-
 ?>
