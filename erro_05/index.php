@@ -13,11 +13,16 @@ class BankAccount {
             echo "Insufficient balance.";
         }
     }
+
+    public function getBalance() { 
+         return $this->balance;
+    }
+
 }
 
 $account = new BankAccount();
 $account->deposit(100);
 $account->withdraw(50);
-echo $account->balance; 
+echo $account->getBalance(); 
 
 ?>

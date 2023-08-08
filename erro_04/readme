@@ -1,0 +1,5 @@
+# 4) Faltava substituir o int pelo float
+
+public function divide($a, $b): float { 
+        return $a / $b;
+    }

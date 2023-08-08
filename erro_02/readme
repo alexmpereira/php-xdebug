@@ -1,0 +1,13 @@
+# 2) Faltava o metodo "age"
+
+/** 
+- add private age
+
+public function setAge($age) { // add function age
+        $this->age = $age;
+    }
+
+    public function getAge() { // add function age
+        return $this->age;
+    }
+*/

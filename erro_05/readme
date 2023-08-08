@@ -1,0 +1,5 @@
+# 5) Adicionar o metodo:
+
+   public function getBalance() { 
+         return $this->balance;
+    }

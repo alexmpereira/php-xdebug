@@ -3,7 +3,7 @@ class Car {
     private $model;
 
     public function setModel($model) {
-        $this->model = $model
+        $this->model = $model; //add virgula
     }
 
     public function getModel() {
