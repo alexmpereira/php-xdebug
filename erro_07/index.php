@@ -1,19 +1,23 @@
 <?php 
 class DiscountCalculator {
+    private $minimumValue = 10; 
     public function calculateDiscount($amount) {
-        $minimumValue = 10;
-        
-        if ($amount > $minimumValue) {
+        if ($amount > $this->minimumValue) { 
             $discount = $amount * 0.1;
         } else {
             $discount = $amount * 0.05;
         }
         
-        // Algum código adicional que altera o valor mínimo durante a validação
-        $minimumValue = 20;
-        
         return $discount;
+    }
+
+    public function setMinimumValue($value) {
+        $this->minimumValue = $value; 
     }
 }
 
+$calculator = new DiscountCalculator();
+echo $calculator->calculateDiscount(15); 
+$calculator->setMinimumValue(20);
+echo $calculator->calculateDiscount(15); 
 ?>
